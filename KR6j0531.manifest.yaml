@@ -1,0 +1,133 @@
+canonical_identifier: bkk:krp/KR6j0531/v1
+canonical_location: https://kanripo.org/bkk/KR6j0531/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 摩登伽經
+  identifiers:
+    alt_id:
+    - T21n1300
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1300.xml
+    old_id: T21n1300
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0531_000.yaml, hash: 'sha256:2b5297b6549acbd5e43c1cd0191785680d30ad6e7b86be8f16b083b6664c3211'}
+  - {seq: 1, filename: KR6j0531_001.yaml, hash: 'sha256:ab77ebf2b77feeb3b9d3a179a487d243600d7c52faa21d693cfb2f6855b8370b'}
+  - {seq: 2, filename: KR6j0531_002.yaml, hash: 'sha256:df836ba2f41660c29d7344ff504c78f91c0b4230ff0e6c1774bc151f2ded6167'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0531_001.markers.yaml, hash: 'sha256:be00f4efc6d159972c965cbfcb1c467a5226ca74cf7780a41621b9aed4100fb1'}
+  - {seq: 2, role: markers, filename: assets/KR6j0531_002.markers.yaml, hash: 'sha256:45914cada3ec428b84684c52de46ad4d4ce664ac787ddb201d87620f43d3b7f2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7714
+  label: 摩登伽經卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-mulu-1
+    span:
+    - body
+    - 12
+    - 12
+  label: 1 度性女品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-mulu-2
+    span:
+    - body
+    - 2043
+    - 2043
+  label: 2 明往緣品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-mulu-3
+    span:
+    - body
+    - 5147
+    - 5147
+  label: 3 示真實品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-mulu-4
+    span:
+    - body
+    - 5755
+    - 5755
+  label: 4 眾相問品
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0531_T_001-mulu-5
+    span:
+    - body
+    - 6417
+    - 6417
+  label: 5 說星圖品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0531_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7053
+  label: 摩登伽經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0531_T_002-mulu-1
+    span:
+    - body
+    - 12
+    - 12
+  label: 6 觀災祥品
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0531_T_002-mulu-2
+    span:
+    - body
+    - 4614
+    - 4614
+  label: 7 明時分別品
+  type: mulu
+  level: 1
+hash: sha256:befcc218980a768e6d9450db2526f0f54afbd8d4f77a35ac5be071be573bd43b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

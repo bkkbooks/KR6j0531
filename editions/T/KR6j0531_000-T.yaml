@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0531/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 摩登伽經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1300.xml
+    old_id: T21n1300
+hash: sha256:2b5297b6549acbd5e43c1cd0191785680d30ad6e7b86be8f16b083b6664c3211
